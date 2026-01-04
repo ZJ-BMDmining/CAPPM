@@ -6,14 +6,14 @@ For neurodegenerative disorders, plasma proteomic data and neuroimages have refl
 
 The framework of the proposed CAPPM method. (A) The role of DPCN is to capture cross-scale interactions between proteomics and MRI data. The DPCN Module consists of D stacked Shared-MRI-Proteomics Fusion (SMPF) layers. (B) The GCA module is designed to perceive the cross-scale conflict scenarios. (C) At each SMPF layer of the DPCN module, the shared latent representation undergoes sequential fusion with individual modalities. 
 
-![Fig1_v6_01](figure/Fig1_v6_01.pdf)
+![Fig1_v6_01](figure/Fig1_v6_01.png)
 
 
 
 Overview of the MCC block. Left: Modal conflicts can be characterized by the gradients of uni-modal loss and multi-modal loss.
 Right: In the gradient space, $g^m$ and $g^u$ represent the gradients of uni-modal loss and multi-modal loss, respectively, while $g^{MCC}$ denotes the coordinated gradient. 
 
-![Fig2_v6_01](figure/Fig2_v6_01.pdf)
+![Fig2_v6_01](figure/Fig2_v6_01.png)
 
 ## Install
 
@@ -56,4 +56,5 @@ Run the cappm/{datasets}.ipynb file to get the Multi-modal model.
 
 
 The obtained files are located under cappm/{datasets}/
+
 
